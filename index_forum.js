@@ -6,7 +6,7 @@ var Post = class {
      constructor (title, entry){
         this.title = title
         this.entry = entry
-
+        this.interactions = []
          }
 }
 
@@ -70,7 +70,6 @@ var checkmypost = new Interaction ("I have something to say")
 
 
 
-       this.response = response
 
 
 
